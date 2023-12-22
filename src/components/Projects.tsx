@@ -6,7 +6,7 @@ const Projects: FC = () => {
       <header className='h-12 flex items-center sticky top-0 backdrop-blur-sm mb-4'>
         <h4 className='text-sm tracking-widest font-bold text-white'>PROJECTS</h4>
       </header>
-      <div className='grid gap-y-6'>
+      <div className='grid gap-y-12'>
         <a href='/'>
           <div className='h-32 w-40 bg-red-500'></div>
           <div>
