@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Contact from "./components/Contact"
 import Education from "./components/Education"
 import Index from "./components/Index"
 import Projects from "./components/Projects"
@@ -13,6 +14,7 @@ function App() {
         <Projects />
         <Education />
         <Technologies />
+        <Contact />
       </div>
     </div>
   )
