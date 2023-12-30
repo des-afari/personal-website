@@ -5,7 +5,7 @@ const Index: FC = () => {
     <section className='lg:h-screen space-y-6'>
       <div>
         <p>Hi there 👋, my name is </p>
-        <h1 className='text-white text-4xl font-extrabold'>Desmond Afari</h1>
+        <h1 className='text-white text-4xl md:text-5xl font-extrabold'>Desmond Afari</h1>
       </div>
       <p>I am a software engineer with expertise in machine learning, focused on developing applications that leverage ML technologies.</p>
       <div className='flex  items-center gap-x-6'>

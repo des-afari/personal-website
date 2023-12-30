@@ -7,31 +7,31 @@ const Projects: FC = () => {
         <h4 className='text-sm tracking-widest font-bold text-white'>PROJECTS</h4>
       </header>
       <div className='grid gap-y-12'>
-        <a href='/'>
-          <div className='h-32 w-40 bg-red-500'></div>
-          <div>
-            <p className='text-white my-4'>A Blogging Application</p>
+        <a href='/' className='grid grid-cols-8'>
+          <div className='h-32 w-40 col-span-2 bg-red-500'></div>
+          <div className='col-span-6'>
+            <p className='text-white my-4 md:mt-0'>A Blogging Application</p>
             <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor molestiae minus aut voluptatibus eius distinctio cupiditate animi! Minima, soluta.</p>
           </div>
         </a>
-        <a href='/'>
-          <div className='h-32 w-40 bg-blue-500'></div>
-          <div>
-            <p className='text-white my-4'>A Stock Purchase Application</p>
+        <a href='/' className='grid grid-cols-8'>
+          <div className='h-32 w-40 col-span-2 bg-blue-500'></div>
+          <div className='col-span-6'>
+            <p className='text-white my-4 md:mt-0'>A Stock Purchase Application</p>
             <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor molestiae minus aut voluptatibus eius distinctio cupiditate animi! Minima, soluta.</p>
           </div>
         </a>
-        <a href='/'>
-          <div className='h-32 w-40 bg-green-500'></div>
-          <div>
-            <p className='text-white my-4'>A Shopping Application</p>
+        <a href='/' className='grid grid-cols-8'>
+          <div className='h-32 w-40 col-span-2 bg-green-500'></div>
+          <div className='col-span-6'>
+            <p className='text-white my-4 md:mt-0'>A Shopping Application</p>
             <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor molestiae minus aut voluptatibus eius distinctio cupiditate animi! Minima, soluta.</p>
           </div>
         </a>
-        <a href='/'>
-          <div className='h-32 w-40 bg-yellow-500'></div>
-          <div>
-            <p className='text-white my-4'>A Blogging Application</p>
+        <a href='/' className='grid grid-cols-8'>
+          <div className='h-32 w-40 col-span-2 bg-yellow-500'></div>
+          <div className='col-span-6'>
+            <p className='text-white my-4 md:mt-0'>A Blogging Application</p>
             <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor molestiae minus aut voluptatibus eius distinctio cupiditate animi! Minima, soluta.</p>
           </div>
         </a>

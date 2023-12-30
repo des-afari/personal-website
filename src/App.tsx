@@ -7,7 +7,7 @@ import Technologies from "./components/Technologies"
 
 function App() {
   return (
-    <div className="min-h-screen bg-zinc-800 text-zinc-400 py-12 px-6">
+    <div className="min-h-screen bg-zinc-800 text-zinc-400 py-12 px-6 md:px-8">
       <Index />
       <div>
         <About />
